@@ -1,0 +1,97 @@
+---
+title: 'useR2018! Recap and Highlights'
+author: "Katie Sasso"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+    code_folding: hide
+---
+
+<style>
+.column-left{
+  float: left;
+  width: 46%;
+  text-align: left;
+}
+</style>
+
+<style>
+pre {
+  white-space: pre !important;
+  overflow-y: scroll !important;
+  height: 50vh !important;
+}
+</style>
+
+## Overview
+
+<div class="column-left">
+useR2018 was gReat!!
+```{r, echo = FALSE, message=FALSE, warning= FALSE, error=FALSE,out.width = "450px"}
+library(vembedr)
+library(htmltools)
+knitr::include_graphics("/Users/ksasso/Dropbox/R/Rladies/useR_recap_8.16/rladies_cake.jpg")
+```
+</div>
+
+<div class="column-left">
+  
+- [R Consortium Youtube Channel](https://www.youtube.com/channel/UC_R5smHVXRYGhZYDJsnXTwg/videos) has almost all talks and workshops posted
+- We will cover the highlight here 
+    
+</div>
+
+## MGCV and GAMLSS tutorial- excellent
+
+- GAMLSS (generalized additive models for location scale and shape)
+- MGCV (GAM models and extensions - for bigger data than GAM package)
+- Absolutely excellent tutorial you can watch [here](https://www.youtube.com/watch?v=a6sTwkQGt3E)
+- Workshop content maybe the best part https://github.com/mfasiolo/workshop_UseR18
+- Model fitting and evaluation
+- Choosing the right smoothing parameters 
+- Great potential content for RLadies!
+
+## gganimate keynote talk 
+
+
+- https://github.com/thomasp85
+- Watch the talk [here](https://www.youtube.com/watch?v=21ZWDrTukEs&t=629s)
+- Cool for learning gganimate - but cooler for hearing about how Thomas thinks of the relationship bewteen animated, static, and interactive visuals
+
+
+## Glue Package (instead of paste!)
+
+<div class="column-left">
+```{r, echo = FALSE, message=FALSE, warning= FALSE, error=FALSE,out.width = "450px"}
+library(vembedr)
+library(htmltools)
+knitr::include_graphics("/Users/ksasso/Dropbox/R/Rladies/useR_recap_8.16/glue_collapse.jpg")
+```
+</div>
+  
+<div class="column-left">
+
+Watch the talk [here](https://www.youtube.com/watch?v=XQmBcpQl8K8)
+
+</div>
+
+## Bill Venables: Adventures with R keynote
+
+<div class="column-left">
+- What is the difference between a statistician and a data scientist? 
+- base vs tidyverse
+- Watch talk [here](https://www.youtube.com/watch?v=XQmBcpQl8K8)
+</div>
+
+<div class="column-left">
+```{r, echo = FALSE, message=FALSE, warning= FALSE, error=FALSE,out.width = "450px"}
+library(vembedr)
+library(htmltools)
+knitr::include_graphics("/Users/ksasso/Dropbox/R/Rladies/useR_recap_8.16/stats_vs_datascience.jpg.jpg")
+```
+</div>
+
+LEFT OFF 
+  
