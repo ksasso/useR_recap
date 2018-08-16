@@ -89,9 +89,66 @@ Watch the talk [here](https://www.youtube.com/watch?v=XQmBcpQl8K8)
 ```{r, echo = FALSE, message=FALSE, warning= FALSE, error=FALSE,out.width = "450px"}
 library(vembedr)
 library(htmltools)
-knitr::include_graphics("/Users/ksasso/Dropbox/R/Rladies/useR_recap_8.16/stats_vs_datascience.jpg.jpg")
+knitr::include_graphics("/Users/ksasso/Dropbox/R/Rladies/useR_recap_8.16/stats_vs_datascience.jpg")
 ```
 </div>
 
-LEFT OFF 
+## Fasster package for Forecasting with Additive Switching of Seasonality, Trend, and Exogenous Regressors
   
+- Package documentation and tutorial info https://github.com/tidyverts/fasster
+- Allow for all sorts of features to be added to complicated forecasting models
+    + Exogenous variables, or those not effecfted by other variables in the system or model
+    + Can apply state space modeling techniques (i.e., type of pobabilisitic graphical modeling approach which uses information about the probabilistic dependence between the latent state variable and the observed measurement to help get a sense of the "expected")
+- Multiple seasonaility in a state space modeling frameowkr 
+- Great for higher frequency time series data
+- Would make a cool tutorial!
+- Talk recording [here](https://www.youtube.com/watch?v=6YlboftSalY)
+
+## Fable package: Displaying and analyzing univariate time series
+
+- Package documentation and examples here https://github.com/tidyverts/fable
+- Easy to apply smoothing via state state space and automatic ARIMA modeling approaches
+- fits with the tidy verse
+- Talk video [here](https://www.youtube.com/watch?v=MemnYSGeJ34)
+    + Discusses the transition from the older forecast package to this newer package
+    
+##kwicRtopcs: HTML widget for displaying a Topic Model Browser
+
+- Aides topic interpretation by highlighting words within the text and the topic for which they were most probable
+- Materials and tutorials here https://github.com/aneesha/kwicRtopics
+- Seems relatively out of the box for the end user
+- Displays both top words and top topics
+
+
+## Code Smells and Feels: Jenny Bryan Key note
+
+- Awesome talk discussing why and when code "smells"
+- Watch talk [here](https://www.youtube.com/watch?v=7oyiPBjLAWY)
+- Excellent referesher on best practices in code writing 
+- Reminded me of a few functions
+    + case_when
+    + tryCatch
+    + switch
+    +  %||%  for value matching
+- Based on refactoring book for java
+
+## Roger Peng's talk 
+
+- Tidyverse, base, and all things evolution of R
+- Watch talk [here](https://www.youtube.com/watch?v=5033jBHFiHE)
+
+## Beyond Syntax: The Power of the open source community
+
+- Watch talk [here](https://www.youtube.com/watch?v=27FxbDtCFoc)
+- Awesome talk on all the comes with the R community and subculture 
+
+
+
+
+
+
+
+
+
+
+
